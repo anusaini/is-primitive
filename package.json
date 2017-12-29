@@ -1,0 +1,32 @@
+{
+  "name": "is-primitive-array",
+  "version": "1.0.0",
+  "description": "Check if a javascript array contains only primitive values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anusaini/is-primitive-array.git"
+  },
+  "keywords": [],
+  "author": "Anubhav Saini <anusaini@paypal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anusaini/is-primitive-array/issues"
+  },
+  "homepage": "https://github.com/anusaini/is-primitive-array#readme",
+  "dependencies": {
+    "is-primitive": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jasmine": "^2.8.0"
+  }
+}
