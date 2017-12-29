@@ -8,7 +8,7 @@ describe('index', () => {
     expect(isPrimitiveArray(primitiveArray)).toBe(true)
   })
   it('returns false if inputArray contains even one non primitive value', () => {
-    const primitiveArray = [1, 'a', 0, '', true, false, {}]
-    expect(isPrimitiveArray(primitiveArray)).toBe(false)
+    const nonPrimitiveArray = [1, 'a', 0, '', true, false, {}]
+    expect(isPrimitiveArray(nonPrimitiveArray)).toBe(false)
   })
 })
